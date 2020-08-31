@@ -1,0 +1,15 @@
+package cs320
+
+import org.scalatest.flatspec.AnyFlatSpec
+
+class SpecBase extends AnyFlatSpec {
+
+  val len = 70
+
+  def normalize(s: String): String = {
+    val s1 = s.replaceAll("Spec.", "")
+      .replaceAll("Implementation.", "")
+      .replaceAll(".apply", "")
+    if (s1.length <= len) s1 else s1.substring(0, len)
+  }
+}
