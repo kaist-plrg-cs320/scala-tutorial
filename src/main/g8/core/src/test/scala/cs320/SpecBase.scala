@@ -2,7 +2,7 @@ package cs320
 
 import org.scalatest.flatspec.AnyFlatSpec
 
-class SpecBase extends AnyFlatSpec {
+trait SpecBase extends AnyFlatSpec {
 
   val len = 70
 
