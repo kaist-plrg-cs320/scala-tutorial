@@ -10,6 +10,6 @@ trait SpecBase extends AnyFlatSpec {
     val s1 = s.replaceAll("Spec.", "")
       .replaceAll("Implementation.", "")
       .replaceAll(".apply", "")
-    if (s1.length <= len) s1 else s1.substring(0, len)
+    if (s1.length <= len) s1 else s"${s1.substring(0, len)} ..."
   }
 }

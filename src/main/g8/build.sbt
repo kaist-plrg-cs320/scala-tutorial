@@ -1,7 +1,7 @@
 ThisBuild / scalaVersion := "2.13.3"
 ThisBuild / organization := "cs320"
 ThisBuild / name := "scalatutorial"
-ThisBuild / version := "1.0.0"
+ThisBuild / version := "1.0.1"
 
 ThisBuild / scalacOptions += "-feature"
 ThisBuild / scalacOptions += "-deprecation"
