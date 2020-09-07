@@ -18,7 +18,7 @@ trait Template {
 
   def getKey(m: Map[String, Int], s: String): Int
 
-  trait Tree
+  sealed trait Tree
   case class Branch(left: Tree, value: Int, right: Tree) extends Tree
   case class Leaf(value: Int) extends Tree
 
