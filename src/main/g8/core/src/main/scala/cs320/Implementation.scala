@@ -1,6 +1,6 @@
 package cs320
 
-object Implementation extends Template with Assignment {
+object Implementation extends Template {
 
   def volumeOfCuboid(a: Int, b: Int, c: Int): Int = ???
 
