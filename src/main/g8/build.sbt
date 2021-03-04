@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.13.3"
+ThisBuild / scalaVersion := "2.13.5"
 ThisBuild / organization := "cs320"
 ThisBuild / name := "scalatutorial"
 
