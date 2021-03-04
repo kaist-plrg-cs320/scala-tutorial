@@ -1,10 +1,10 @@
-ThisBuild / scalaVersion := "2.13.5"
-ThisBuild / organization := "cs320"
-ThisBuild / name := "scalatutorial"
+scalaVersion := "2.13.5"
+organization := "cs320"
+name := "scalatutorial"
 
-ThisBuild / scalacOptions += "-feature"
-ThisBuild / scalacOptions += "-deprecation"
-ThisBuild / scalacOptions += "-Xlint:unused"
+scalacOptions += "-feature"
+scalacOptions += "-deprecation"
+scalacOptions += "-Xlint:unused"
 
 run := (core / Compile / run).evaluated
 test := (core / Test / test).value
