@@ -1,6 +1,6 @@
 name := "scalatutorial"
 
-ThisBuild / scalaVersion := "2.13.14"
+ThisBuild / scalaVersion := "2.13.16"
 ThisBuild / scalacOptions ++= Seq("-feature", "-deprecation", "-Xlint:unused")
 
 lazy val macros = (project in file("macros")).settings(
